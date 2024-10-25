@@ -2,6 +2,7 @@
   "name": "kiichainrwa",
   "version": "1.0.0",
   "description": "",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "compile": "npx hardhat compile",
@@ -26,8 +27,7 @@
     "deploy-valuation-sepolia": "npx hardhat ignition deploy ./ignition/modules/RwaValuation.ts --network sepolia",
     "mint-sepolia": "hardhat run --network sepolia scripts/mint.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Paul Spread", 
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "@types/crypto-js": "^4.2.2",
